@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IT Department News</title>
+  <style>
+    /* Basic styling for demonstration purposes */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    
+    h1 {
+      text-align: center;
+    }
+    
+    .news-container {
+      border: 1px solid #ccc;
+      padding: 10px;
+      overflow: hidden;
+      width: 80%;
+      margin: 0 auto;
+    }
+    
+    .marquee-text {
+      white-space: nowrap;
+      overflow: hidden;
+      animation: marquee 15s linear infinite;
+    }
+    
+    @keyframes marquee {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(-100%); }
+    }
+  </style>
+</head>
+<body>
+  <h1>IT Department Latest News</h1>
+  <div class="news-container">
+    <div class="marquee-text">
+      <p>Update: New cybersecurity measures have been implemented across the network.</p>
+      <p>Reminder: IT team meeting tomorrow at 10 AM in Conference Room B.</p>
+      <p>Important: Scheduled maintenance on the server this weekend. Expect temporary downtime.</p>
+      <p>Announcement: Launch of the new IT helpdesk portal for staff.</p>
+      <!-- Add more news items here -->
+    </div>
+  </div>
+</body>
+</html>
